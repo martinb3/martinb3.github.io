@@ -1,1 +1,15 @@
-First content
+---
+layout: default
+title: Martin B. Smith
+---
+
+
+<a href="mailto:martin@mbs3.org">Email: martin@mbs3.org</a>
+<a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&search=0xCEFBEB6D">GPG key: 0xCEFBEB6D</a>
+
+{% for post in site.posts limit:5 %}
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{{ post.content }}
+<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% endfor %}
+
