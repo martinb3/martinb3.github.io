@@ -3,13 +3,15 @@ layout: default
 title: Martin B. Smith
 ---
 
+<p><a href="mailto:martin@mbs3.org">Email: martin@mbs3.org</a></p>
 
-<a href="mailto:martin@mbs3.org">Email: martin@mbs3.org</a>
-<a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&search=0xCEFBEB6D">GPG key: 0xCEFBEB6D</a>
+<p><a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&search=0xCEFBEB6D">GPG key: 0xCEFBEB6D</a></p>
 
 {% for post in site.posts limit:5 %}
+<div class="post">
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{{ post.content }}
+<p>{{ post.content }}</p>
 <em>Posted on {{ post.date | date_to_long_string }}.</em>
+</div>
 {% endfor %}
 
