@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="style-ie.css" />
+	<![endif]-->
+<title>Classic Luxury | www.csstemplateheaven.com</title>
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<!-- Begin DropDown -->
+      
+<script type="text/javascript">
+$(function(){
+   $("ul.dropdown li").hover(function(){
+        $(this).addClass("hover");
+        $('ul:first',this).css('visibility', 'visible');
+    
+    }, function(){
+   $(this).removeClass("hover");
+   $('ul:first',this).css('visibility', 'hidden');
+});
+$("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="header">
+
+<div id="social">
+  <a href="#"><img src="images/facebook.png" width="26" height="26" alt="facebook" /></a>
+  <a href="#"><img src="images/twitter.png" width="26" height="26" alt="twitter" /></a>
+  <a href="#"><img src="images/linkedin.png" width="26" height="26" alt="linkedin" /></a>
+  <a href="#"><img src="images/email.png" width="26" height="26" alt="email" /></a>
+</div>
+
+</div>
+
+
+
+<ul class="dropdown"><!-- menu -->
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="gallery.html">Gallery</a>
+<ul class="sub_menu">
+    <li><a href="gallery.html">Portraits</a></li>
+    <li><a href="gallery.html">Landscapes</a>
+        <ul>
+        <li><a href="gallery.html">Asia</a></li>
+        <li><a href="gallery.html">Africa</a></li>
+        </ul>
+    </li>
+    <li><a href="gallery.html">Weddings &amp; Social</a></li>
+    <li><a href="gallery.html">Sports</a></li>
+    <li><a href="gallery.html">Fine Art</a></li>
+</ul>
+</li>
+
+<!-- end submenu -->
+
+<li><a href="page.html">Page</a></li>
+
+</ul><!-- close menu -->
+
+
+
+
+<div id="gallery"><!-- gallery -->
+
+<ul>
+  <li><a href="gallery.html"><img src="images/tb1.jpg" alt="demo" /></a></li>
+  <li><a href="gallery.html"><img src="images/tb2.jpg" alt="demo" /></a></li>
+  <li><a href="gallery.html"><img src="images/tb3.jpg" alt="demo" /></a></li>
+  <li><a href="gallery.html"><img src="images/tb4.jpg" alt="demo" /></a></li>                        
+</ul>
+
+</div><!-- close gallery -->
+ 
+ 
+<div id="intro">
+<p><span>Welcome to my site.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis risus ligula. Proin rhoncus felis at ipsum consequat eget commodo libero semper. Morbi sed purus arcu.</p>
+</div>
+
+
+<div id="box_left">
+<h3>About</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus dolor hendrerit lacus egestas sollicitudin. Nullam pharetra commodo sem, sit amet mattis metus vestibulum at. Suspendisse in tellus metus. Ut lobortis gravida magna, et mollis nisl luctus et. Ut quis neque eros</p>
+<a href="page.html"><img src="images/more.png" class="more" width="68" height="24" alt="more" /></a>
+</div>
+
+<div id="box_right">
+<h3>Recent</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus dolor hendrerit lacus egestas sollicitudin. Nullam pharetra commodo sem, sit amet mattis metus vestibulum at. Suspendisse in tellus metus. Ut lobortis gravida magna, et mollis nisl luctus et. Ut quis neque eros</p>
+<a href="page.html"><img src="images/more.png" class="more" width="68" height="24" alt="more" /></a>
+</div>
+
+<div id="box_middle">
+<h3>Services</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus dolor hendrerit lacus egestas sollicitudin. Nullam pharetra commodo sem, sit amet mattis metus vestibulum at. Suspendisse in tellus metus. Ut lobortis gravida magna, et mollis nisl luctus et. Ut quis neque eros</p>
+<a href="page.html"><img src="images/more.png" class="more" width="68" height="24" alt="more" /></a>
+</div>
+
+<div id="footer">
+Exclusively on <a href="http://www.sixrevisions.com">Six Revisions</a> | Created by <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a>
+</div>
+
+</body>
+</html>
