@@ -1,13 +1,9 @@
 ---
-layout: default
+layout: fancy
 title: Martin B. Smith III
 ---
 
-<p>Email: <a href="mailto:martin@mbs3.org">martin@mbs3.org</a></p>
-<p>GPG key: <a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&search=0xCEFBEB6D">0xCEFBEB6D</a></p>
-<p>Resume: <a href="http://github.com/martinb3/resume">http://github.com/martinb3/resume</a></p>
-
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:1 %}
 <div class="post">
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <p>{{ post.content }}</p>
